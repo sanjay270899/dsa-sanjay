@@ -1,0 +1,29 @@
+@import "../variables";
+
+.header {
+  background-color: $color-dark;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 5rem;
+
+  .left {
+    font-size: 1.7rem;
+    color: whitesmoke;
+    font-weight: bold;
+  }
+
+  .right {
+    font-size: 1.15rem;
+    color: $color-light;
+
+    a {
+      margin-left: 2rem;
+
+      &:hover {
+        color: whitesmoke;
+      }
+    }
+  }
+}
