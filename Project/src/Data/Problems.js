@@ -7,8 +7,8 @@ export const problems = [
     tags: ["devsnest", "arrays"],
     link: "https://leetcode.com/problems/two-sum/",
     codes: [
-      "https://raw.githubusercontent.com/sanjay270899/dsa-sanjay/main/src/Codes/two-sum/Java/Solution1.java?token=AKO363VZTAFWEWDMSV5SK5DARF5EY",
-      "https://raw.githubusercontent.com/sanjay270899/dsa-sanjay/main/src/Codes/two-sum/Java/Solution2.java?token=AKO363VECP5BWAK6JS4RBX3ARF542"
+      "https://raw.githubusercontent.com/sanjay270899/dsa-sanjay/main/Codes/two-sum/Java/Solution1.java",
+      "https://raw.githubusercontent.com/sanjay270899/dsa-sanjay/main/Codes/two-sum/Java/Solution2.java"
     ]
   },
   {
@@ -18,7 +18,10 @@ export const problems = [
     difficulty: "Easy",
     tags: ["devsnest", "arrays"],
     link: "https://leetcode.com/problems/contains-duplicate/",
-    codes: []
+    codes: [
+      "https://raw.githubusercontent.com/sanjay270899/dsa-sanjay/main/Codes/contains-duplicate/Java/Solution1.java",
+      "https://raw.githubusercontent.com/sanjay270899/dsa-sanjay/main/Codes/contains-duplicate/Java/Solution2.java"
+    ]
   },
   {
     title: "3Sum",
@@ -27,6 +30,10 @@ export const problems = [
     difficulty: "Medium",
     tags: ["devsnest", "arrays"],
     link: "https://leetcode.com/problems/3sum/",
-    codes: []
+    codes: [
+      "https://raw.githubusercontent.com/sanjay270899/dsa-sanjay/main/Codes/3sum/Java/Solution1.java",
+      "https://raw.githubusercontent.com/sanjay270899/dsa-sanjay/main/Codes/3sum/Java/Solution2.java"
+    ],
+    tutorial: "https://youtu.be/onLoX6Nhvmg"
   }
 ];

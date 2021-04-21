@@ -14,6 +14,28 @@ export const Solutions = () => {
       <h1>
         {problem.title} ({problem.id})
       </h1>
+
+      {problem.tutorial && (
+        <div className={styles["tutorial"]}>
+          <a href={problem.tutorial} target="_blank" rel="noopener noreferrer">
+            Video Explaination
+          </a>
+        </div>
+      )}
+
+      {problem.codes.length === 0 && (
+        <div className={styles["noSolution"]}>
+          <p>No Solution for this question yet.</p>
+          <a
+            href="https://github.com/sanjay270899/dsa-sanjay"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Contribute Now!
+          </a>
+        </div>
+      )}
+
       {problem.codes.map((link, index) => (
         <div key={index}>
           <CodeBox language="java" link={link} />
