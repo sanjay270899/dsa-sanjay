@@ -9,4 +9,29 @@
     border-bottom: 1px solid gray;
     padding-bottom: 0.3rem;
   }
+
+  .tutorial {
+    padding-bottom: 1rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .noSolution {
+    p {
+      padding-bottom: 1rem;
+    }
+
+    a {
+      background-color: mediumseagreen;
+      color: white;
+      padding: 0.5rem;
+      box-shadow: $box-shadow-light;
+
+      &:hover {
+        box-shadow: $box-shadow;
+      }
+    }
+  }
 }
