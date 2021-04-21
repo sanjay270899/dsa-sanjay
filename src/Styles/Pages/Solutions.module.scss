@@ -1,0 +1,12 @@
+@import "../variables";
+
+.solutions {
+  padding: 1rem 5rem;
+  background-color: $color-light;
+  min-height: 75vh;
+
+  h1 {
+    border-bottom: 1px solid gray;
+    padding-bottom: 0.3rem;
+  }
+}

@@ -1,0 +1,54 @@
+@import "../variables";
+
+.questions {
+  padding: 1rem 5rem;
+  background-color: $color-light;
+  min-height: 75vh;
+
+  h1 {
+    border-bottom: 1px solid gray;
+    padding-bottom: 0.3rem;
+
+    .main:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .question {
+    background-color: $color-white;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: $box-shadow-light;
+
+    .title {
+      font-size: 1.5rem;
+    }
+
+    div {
+      font-size: 1rem;
+      color: gray;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      button {
+        font-size: 1.25rem;
+        padding: 0.5rem;
+        background-color: mediumseagreen;
+        color: $color-light;
+        cursor: pointer;
+
+        &:hover {
+          padding: 0.5rem 0.7rem;
+        }
+      }
+    }
+
+    &:hover {
+      box-shadow: $box-shadow;
+    }
+  }
+}
