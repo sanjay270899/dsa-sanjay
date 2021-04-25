@@ -3,14 +3,23 @@ import { useParams } from "react-router-dom";
 import styles from "../Styles/Pages/Solutions.module.scss";
 import { problems } from "../Data/Problems";
 import { CodeBox } from "../Components/CodeBox";
+import { useHistory } from "react-router-dom";
 
 export const Solutions = () => {
   const params = useParams();
+  const history = useHistory();
 
   const problem = problems.find(problem => problem.id === params.name);
 
+  const goBack = () => {
+    history.goBack();
+  };
+
   return (
     <main className={styles["solutions"]}>
+      <span className={styles["back"]} onClick={() => goBack()}>
+        ◀ <span>Go Back</span>
+      </span>
       <h1>
         {problem.title} ({problem.id})
       </h1>

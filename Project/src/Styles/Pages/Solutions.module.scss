@@ -5,6 +5,16 @@
   background-color: $color-light;
   min-height: 75vh;
 
+  .back {
+    font-size: 1.3rem;
+    cursor: pointer;
+    width: fit-content;
+
+    span:hover {
+      text-decoration: underline;
+    }
+  }
+
   h1 {
     border-bottom: 1px solid gray;
     padding-bottom: 0.3rem;
