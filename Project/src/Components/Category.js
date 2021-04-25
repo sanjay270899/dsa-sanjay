@@ -6,6 +6,7 @@ export const Category = ({ category, buttonText }) => {
   return (
     <div className={styles["category"]}>
       <div className={styles["title"]}>{category.title}</div>
+      <p>Total Questions: {category.questionNumber}</p>
       <Link to={category.to}>
         <button>{buttonText}</button>
       </Link>
